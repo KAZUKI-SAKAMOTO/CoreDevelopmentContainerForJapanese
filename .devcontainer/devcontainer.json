@@ -1,0 +1,22 @@
+{
+    "name": "Core Development Container for Japanese",
+    "dockerComposeFile": [
+        "./docker-compose.yml"
+    ],
+    "service": "core-dev",
+    "workspaceFolder": "/workspace",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                // Git
+                "mhutchie.git-graph",
+                "eamodio.gitlens",
+                "donjayamanne.githistory",
+
+                // Other
+                "ms-azuretools.vscode-docker"
+            ]
+        }
+    },
+    "remoteUser": "root"
+} 
